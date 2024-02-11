@@ -9,3 +9,19 @@ body {
   padding: 1cm;
 }
 
+#navbar ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#navbar ul li {
+  margin-right: 10px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: azure;
+  font-size: 24px;
+}

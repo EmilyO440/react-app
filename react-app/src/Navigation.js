@@ -5,9 +5,9 @@ export default class Navigation extends Component {
     return (
     <nav id="navbar">
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="./Home">Home</a></li>
+        <li><a href="./About">About</a></li>
+        <li><a href="./Contact">Contact</a></li>
       </ul>
     </nav>
     )
