@@ -20,8 +20,28 @@ body {
   margin-right: 10px;
 }
 
+#navbar ul li:hover {
+  background-color: rgb(106, 145, 73);
+  text-decoration: underline;
+}
+
 #navbar ul li a {
   text-decoration: none;
   color: azure;
   font-size: 24px;
+}
+
+#loginForm {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: fit-content;
+  align-items: center;
+  margin-top: 1em;
+  border: 1px solid rgb(182, 202, 255);
+  padding: 16px;
+}
+
+#loginForm button {
+  margin-top: 1em;
 }
